@@ -16,4 +16,4 @@ RUN apt update \
     && echo './utils/launch.sh  --vnc localhost:7900 --listen 8900 ' >>/qkvim.sh \
     && chmod 755 /qkvim.sh
 EXPOSE 8900
-CMD ["/qkvim.sh"]
+CMD  /qkvim.sh
